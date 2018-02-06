@@ -22,9 +22,9 @@ enumerate all of the sets, isn't going to work that well, is it.
 
 SOLUTION: Define a total order over all possible sets of beans, wherein each set is
 represented by an integer 0, 1, ... .  A set S_1 < S_2 if |S_1| < |S_2| or |S_1| = |S_2|
-and S_1 contains more white beads than S_2.  Use dynamic programming, and define
+and S_1 contains more white beans than S_2.  Use dynamic programming, and define
 C[b][w][g] to be the total number of configurations when we have b black beans, w white
-beans and restrict the maximum possible bead set to g.  Given a possible collection C of
+beans and restrict the maximum possible bean set to g.  Given a possible collection C of
 beans, there are two cases: C contains the set represented by g, or C does not.  If g is
 not in the collection, then the total number is
 
