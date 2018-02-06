@@ -1,7 +1,7 @@
 /*
 Bean Problem by LMW.
 
-PROBLEM: Given n black and m black beans, count the total number of possible
+PROBLEM: Given n black and m white beans, count the total number of possible
 collections of sets of beans.  The order of beans doesn't matter, i.e. a single set of
 beans is defined solely based on the # of white and black beans it contains.
 
